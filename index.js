@@ -5,11 +5,6 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = ''; // Possible values: 'Regular', 'Sugar-free', or undefined
-if (userPreference == ''){
-   console.log('Regular');
-} else {
-    console.log('Sugar-Free');
-}
 let prefer = userPreference == '' ? 'Regular' : 'Sugar-Free';
 console.log(prefer);
 

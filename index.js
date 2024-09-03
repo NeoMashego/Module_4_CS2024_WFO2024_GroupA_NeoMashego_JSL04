@@ -13,11 +13,6 @@ console.log(prefer);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 5; // Any number of cans
-if (cansLeft < 5){
-    console.log("Time to restock!")
-} else if(cansLeft >= 5) {
-    console.log("We're stocked!")
-}
 var restock = cansLeft < 5 ? "Time to restock!" : cansLeft >= 5 ? "We're stocked!": "Report to management";
 console.log(restock);
 

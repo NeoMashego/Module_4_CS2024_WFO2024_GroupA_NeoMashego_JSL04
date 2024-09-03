@@ -10,6 +10,7 @@ if (userPreference == ''){
 } else {
     console.log('Sugar-Free');
 }
+let prefer = userPreference == '' ? 'Regular' : 'Sugar-Free';
 console.log(prefer);
 
 // #### Challenge 2: Stock Check

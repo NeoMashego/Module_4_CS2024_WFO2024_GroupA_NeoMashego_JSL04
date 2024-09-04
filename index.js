@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = ''; // Possible values: 'Regular', 'Sugar-free', or undefined
-let prefer = userPreference == '' ? 'Regular' : 'Sugar-Free';
+var prefer = userPreference == '' ? 'Regular' : 'Sugar-Free';
 console.log(prefer);
 
 // #### Challenge 2: Stock Check
@@ -22,7 +22,7 @@ console.log(restock);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!". '}
 
 let heartRate = 95; // Current heart rate in bpm
-let boost = heartRate < 100 ? "Boost Needed" : "Energy levels are high!";
+var boost = heartRate < 100 ? "Boost Needed" : "Energy levels are high!";
 console.log(boost);
 
 
@@ -42,7 +42,7 @@ console.log(cold);
 
 // Define the current hour in 24-hour format
 let currentHour = 3;   
-let drinkTime = currentHour >= 7 && currentHour <= 24? "Unleash the beast!": "Better stick to water.";
+var drinkTime = currentHour >= 7 && currentHour <= 24? "Unleash the beast!": "Better stick to water.";
 console.log(drinkTime);
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour

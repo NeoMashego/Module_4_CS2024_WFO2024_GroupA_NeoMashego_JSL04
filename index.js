@@ -42,11 +42,6 @@ console.log(cold);
 
 // Define the current hour in 24-hour format
 let currentHour = 3;   
-if (currentHour >= 7 && currentHour <= 24){
-    console.log("Unleash the beast!");
-} else {
-    console.log("Better stick to water.");
-}
 let drinkTime = currentHour >= 7 && currentHour <= 24? "Unleash the beast!": "Better stick to water.";
 console.log(drinkTime);
 

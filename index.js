@@ -41,8 +41,8 @@ console.log(cold);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 23;   
-if (currentHour > 7 && currentHour > 24){
+let currentHour = 23;   //const now = new Date(); const hours = now.getHours();
+if (currentHour > 7 && currentHour < 24){
     console.log("Unleash the beast!");
 } else {
     console.log("Better stick to water.");

@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = ''; // Possible values: 'Regular', 'Sugar-free', or undefined
-var prefer = userPreference == '' ? 'Regular' : 'Sugar-Free';
+let prefer = userPreference == '' ? 'Regular' : 'Sugar-Free';
 console.log(prefer);
 
 // #### Challenge 2: Stock Check
@@ -13,7 +13,7 @@ console.log(prefer);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 5; // Any number of cans
-var restock = cansLeft < 5 ? "Time to restock!" : cansLeft >= 5 ? "We're stocked!": "Report to management";
+let restock = cansLeft < 5 ? "Time to restock!" : cansLeft >= 5 ? "We're stocked!": "Report to management";
 console.log(restock);
 
 
@@ -22,7 +22,7 @@ console.log(restock);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!". '}
 
 let heartRate = 95; // Current heart rate in bpm
-var boost = heartRate < 100 ? "Boost Needed" : "Energy levels are high!";
+let boost = heartRate < 100 ? "Boost Needed" : "Energy levels are high!";
 console.log(boost);
 
 
@@ -31,7 +31,7 @@ console.log(boost);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-var cold = currentTemp <=5 ? "Chilled to perfection!" : "Needs a cooler!";
+let cold = currentTemp <=5 ? "Chilled to perfection!" : "Needs a cooler!";
 console.log(cold);
 
 
@@ -42,7 +42,7 @@ console.log(cold);
 
 // Define the current hour in 24-hour format
 let currentHour = 3;   
-var drinkTime = currentHour >= 7 && currentHour <= 24? "Unleash the beast!": "Better stick to water.";
+let drinkTime = currentHour >= 7 && currentHour <= 24? "Unleash the beast!": "Better stick to water.";
 console.log(drinkTime);
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour

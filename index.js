@@ -13,7 +13,7 @@ console.log(prefer);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 5; // Any number of cans
-let restock = cansLeft < 5 ? "Time to restock!" : cansLeft >= 5 ? "We're stocked!": "Report to management";
+let restock = cansLeft < 5 ? "Time to restock!" : cansLeft >= 5 ? "We're stocked!": "Report to management.";
 console.log(restock);
 
 
@@ -22,7 +22,7 @@ console.log(restock);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!". '}
 
 let heartRate = 95; // Current heart rate in bpm
-let boost = heartRate < 100 ? "Boost Needed" : "Energy levels are high!";
+let boost = heartRate < 100 ? "Boost Needed!" : "Energy levels are high!";
 console.log(boost);
 
 
